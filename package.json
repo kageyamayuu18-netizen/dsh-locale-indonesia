@@ -1,0 +1,47 @@
+{
+  "name": "dsh-locale-indonesia",
+  "version": "1.0.0",
+  "description": "Bahasa Indonesia language pack for DeepSeek Harness: UI translation, all models respond in Indonesian, and translated text for DSH Plugin Hub.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "locale",
+    "indonesia",
+    "bahasa-indonesia",
+    "i18n"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./locales/id-core.json": "./locales/id-core.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locales/id-core.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "locale"
+      ]
+    }
+  }
+}
