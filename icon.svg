@@ -3,7 +3,7 @@
     <clipPath id="clip"><rect x="0" y="0" width="64" height="64" rx="12"/></clipPath>
   </defs>
   <g clip-path="url(#clip)">
-    <rect x="0" y="0" width="64" height="32" fill="#ffffff"/>
-    <rect x="0" y="32" width="64" height="32" fill="#ce1126"/>
+    <rect x="0" y="0" width="64" height="32" fill="#ce1126"/>
+    <rect x="0" y="32" width="64" height="32" fill="#ffffff"/>
   </g>
 </svg>
